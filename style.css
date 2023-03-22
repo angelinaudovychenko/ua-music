@@ -1,0 +1,56 @@
+body {
+  background: hsla(211, 100%, 37%, 1);
+
+  background: linear-gradient(
+    180deg,
+    hsla(211, 100%, 37%, 1) 5%,
+    hsla(50, 100%, 50%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    180deg,
+    hsla(211, 100%, 37%, 1) 5%,
+    hsla(50, 100%, 50%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    180deg,
+    hsla(211, 100%, 37%, 1) 5%,
+    hsla(50, 100%, 50%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#005BBB", endColorstr="#FFD500", GradientType=1 );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 60px;
+}
+
+h3 {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.header {
+  margin-top: 50px;
+}
+
+.text {
+  text-align: center;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+  }
+}
